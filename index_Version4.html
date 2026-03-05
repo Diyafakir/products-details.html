@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Glow - Organic Beauty Powders</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-icon">🌿</span>
+                <h1>Natural Glow</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="founder.html" class="nav-link">Founder</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="cart.html" class="nav-link cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count" id="cart-count">0</span>
+                </a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <svg viewBox="0 0 1200 600" class="hero-svg">
+                <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#e8f1d7;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#f5f3f0;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                <rect width="1200" height="600" fill="url(#grad1)"/>
+                <circle cx="200" cy="100" r="120" fill="#a4c639" opacity="0.3"/>
+                <circle cx="1000" cy="500" r="150" fill="#6b9d3e" opacity="0.2"/>
+                <path d="M0 300 Q300 200 600 300 T1200 300 L1200 600 L0 600 Z" fill="#d4e8c1" opacity="0.5"/>
+            </svg>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="hero-title">Natural Beauty Powders</h2>
+                <p class="hero-subtitle">Pure, Organic, Beautifully Minimal</p>
+                <p class="hero-description">Elevate your beauty routine with nature's finest powders</p>
+                <button class="cta-button">Shop Now</button>
+            </div>
+            <div class="hero-image">
+                <div class="product-display">
+                    <img src="https://images.unsplash.com/photo-1596462502278-af407713571d?w=400&h=500&fit=crop" alt="Beauty Powder Collection" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Collection</h2>
+                <p class="section-subtitle">Three essentials for your natural beauty</p>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Face Powder -->
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="https://images.unsplash.com/photo-1631214174585-fe5582e5e15b?w=300&h=300&fit=crop" alt="Natural Face Powder" loading="lazy">
+                        <span class="product-badge">Face</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Face Powder</h3>
+                        <p class="product-desc">Lightweight, breathable formula for a natural matte finish. Suitable for all skin types with organic mineral ingredients.</p>
+                        <div class="product-price">$24.99</div>
+                        <div class="product-features">
+                            <span class="feature">✓ Matte Finish</span>
+                            <span class="feature">✓ Long-wearing</span>
+                            <span class="feature">✓ Oil Control</span>
+                        </div>
+                        <button class="product-button add-to-cart" data-product='{"id":1,"name":"Face Powder","price":24.99,"image":"https://images.unsplash.com/photo-1631214174585-fe5582e5e15b?w=300&h=300&fit=crop"}'>Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Hair Powder -->
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=300&h=300&fit=crop" alt="Volumizing Hair Powder" loading="lazy">
+                        <span class="product-badge">Hair</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Hair Powder</h3>
+                        <p class="product-desc">Refresh your hair between washes with our volumizing powder. Absorbs excess oil and adds natural texture instantly.</p>
+                        <div class="product-price">$19.99</div>
+                        <div class="product-features">
+                            <span class="feature">✓ Add Volume</span>
+                            <span class="feature">✓ Oil Absorb</span>
+                            <span class="feature">✓ Fresh Scent</span>
+                        </div>
+                        <button class="product-button add-to-cart" data-product='{"id":2,"name":"Hair Powder","price":19.99,"image":"https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=300&h=300&fit=crop"}'>Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Body Powder -->
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=300&h=300&fit=crop" alt="Silky Body Powder" loading="lazy">
+                        <span class="product-badge">Body</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Body Powder</h3>
+                        <p class="product-desc">Silky smooth formula with botanical extracts. Keep fresh throughout the day with our gentle, breathable blend.</p>
+                        <div class="product-price">$22.99</div>
+                        <div class="product-features">
+                            <span class="feature">✓ Soft Texture</span>
+                            <span class="feature">✓ Botanical</span>
+                            <span class="feature">✓ All Day Fresh</span>
+                        </div>
+                        <button class="product-button add-to-cart" data-product='{"id":3,"name":"Body Powder","price":22.99,"image":"https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=300&h=300&fit=crop"}'>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">🌱</div>
+                    <h4>100% Natural</h4>
+                    <p>No synthetic chemicals, just pure organic ingredients</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🦋</div>
+                    <h4>Cruelty-Free</h4>
+                    <p>Never tested on animals, always ethical sourcing</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">♻️</div>
+                    <h4>Eco-Friendly</h4>
+                    <p>Sustainable packaging that respects our planet</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">✨</div>
+                    <h4>Effective Results</h4>
+                    <p>Professional quality for everyday natural beauty</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>🌿 Natural Glow</h3>
+                    <p>Pure beauty, naturally</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="founder.html">Founder</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Twitter">𝕏</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Natural Glow | Founder: Diya Asif Fakir | All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+=== NATURAL GLOW WEBSITE - COMPLETE SETUP ===
+
+FILE 1: index.html
+==================
+[Copy entire index.html code]
+
+FILE 2: cart.html  
+==================
+[Copy entire cart.html code]
+
+FILE 3: products-db.html
+========================
+[Copy entire products-db.html code]
+
+FILE 4: founder.html
+====================
+[Copy entire founder.html code]
+
+FILE 5: contact.html
+====================
+[Copy entire contact.html code]
+
+FILE 6: styles.css
+==================
+[Copy entire styles.css code]
+
+FILE 7: db.css
+==============
+[Copy entire db.css code]
+
+FILE 8: app.js
+==============
+[Copy entire app.js code]
+
+FILE 9: script.js
+=================
+[Copy entire script.js code]
+
+INSTRUCTIONS:
+1. Create a folder: beauty-powders-website
+2. Create 9 files with names above
+3. Paste respective code into each file
+4. Open index.html in browser
+5. Done! ✅
